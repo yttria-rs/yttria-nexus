@@ -1,0 +1,14 @@
+[package]
+name = "yttria-nexus"
+version = "0.1.0"
+authors = ["Trevor Klingler"]
+description = "A library for conveniently managing data and controls for the rest of the yttria ecosystem"
+readme = "readme.md"
+repository = "https://github.com/yttria-rs/yttria-nexus"
+license = "MPL-2.0"
+keywords = ["dsp", "radio", "math"]
+categories = ["Operating systems", "GUI", "Data structures"]
+edition = "2021"
+
+[dependencies]
+nix = { version = "0.29.0", features = ["net", "ioctl"] }
