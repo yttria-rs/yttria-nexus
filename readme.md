@@ -1,13 +1,9 @@
-# yttria-coding
+# yttria-system
 
 Yttria sets out to be an end-to-end wireless communications DSP library for developing custom and
-novel radio solutions, particularly regarding Software Defined Radios. Yttria-coding is the subcrate
-responsible for the codes commonly used in electrical and wireless communications engineering for
-their autocorrelation or error correction utility.
-
-The goals of this subcrate are somewhat ambitious, hoping to port much of the functionality present
-in the renowned [aff3ct](https://aff3ct.github.io/) library to the rust ecosystem, with a focus on
-utility within Yttria, but otherwise still useful.
+novel radio solutions, particularly regarding Software Defined Radios. Yttria-system is the subcrate
+responsible for non-radio control or data communication with other components such as virtual
+tun/tap devices.
 
 ## Why Yttria?
 
@@ -18,11 +14,11 @@ the software side as powerful and agile as the hardware is becoming.
 
 ## Todo
 
-- [x] Gray codes
-- [ ] Gold codes
-    - [ ] Linear Feedback Shift Registers
-- [ ] Barker codes
-- [ ] Error Correction Codes
-    - [ ] Turbo codes
-    - [ ] LPDC
-    - [ ] Polar codes
+- [ ] Tun devices
+    - [ ] baseline functionality
+    - [ ] async
+- [ ] Tap devices
+    - [ ] baseline functionality
+    - [ ] async
+- [ ] Websocket control
+- [ ] Native GUI control
